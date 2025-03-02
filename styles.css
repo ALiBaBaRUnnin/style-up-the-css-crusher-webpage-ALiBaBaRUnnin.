@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+.header-class {
+    background-color: #333;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.title-class {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.nav-class {
+    margin-top: 10px;
+}
+
+.nav-class a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-class a:hover {
+    text-decoration: underline;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-class {
+    width: 80%; /* Adjust width as needed */
+    max-width: 1000px; /* Max width to prevent it from being too large */
+    height: auto; /* Keep aspect ratio */
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Testimonials Section */
+.testimonials-section blockquote {
+    background-color: #e0f7fa;
+    border-left: 5px solid #00838f;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+/* Newsletter Section */
+.newsletter-section input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.button-class {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-class:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
